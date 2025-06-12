@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffe Shop</title>
+  </head>
+  <body>
+    <div class="video-box">
+      <video src="/videos/cafe.mp4"></video>
+      <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+      <section>
+        <a href="">
+          <img src="/img/logo.png" alt="logo-coffeshop" />
+        </a>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="sobre">Sobre</a>
+          <a href="#" onclick="mostrarModal">Endereço</a>
+        </nav>
+      </section>
+    </header>
+
+    <section class="principal-box">
+      <div>
+        <h3>Code com o Melhor café da Região</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="" class="link-bnt">Pegue o seu Agora</a>
+      </div>
+    </section>
+
+    <section class="sobre-box" id="sobre">
+      <h2 class="titulo"><span>Sobre </span> Nós</h2>
+
+      <div class="sobre-container">
+        <div class="sobre-img">
+          <img src="/img/about-img.jpg" alt="" />
+        </div>
+
+        <div class="sobre-text">
+          <h3>O que faz nosso café especial</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <a href="" class="link-bnt">Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+    <div class="modal">
+      <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15602.437601866122!2d-38.425134749890724!3d-12.138855809681335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716bd003dd8001f%3A0x3d3d54b69a0e2126!2sTomgato%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1749759561162!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="mascara-modal" onclick="esconderModal"></div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
